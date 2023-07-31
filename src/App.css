@@ -1,13 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Karla', sans-serif;
-}
-
 button:focus {
   outline: none;
 }
@@ -20,17 +10,12 @@ button:focus {
 
 .pane {
   overflow-y: auto;
-  /* padding: 10px; */
 }
 
 .sidebar {
   width: 20%;
   height: 100vh;
 }
-
-/* .sidebar--note {
-  display: flex;
-} */
 
 .sidebar--header {
   display: flex;
@@ -112,7 +97,6 @@ button:focus {
 
 .gutter {
   background-color: #eee;
-
   background-repeat: no-repeat;
   background-position: 50%;
 }

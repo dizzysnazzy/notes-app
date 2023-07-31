@@ -10,7 +10,7 @@ export default function Editor({ currentNote, updateNote }) {
         tables: true,
         simplifiedAutoLink: true,
         strikethrough: true,
-        tasklists: true,
+        tasklists: true
     })  
 
     return (
